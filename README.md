@@ -57,7 +57,7 @@ npm install
 npx hardhat compile
 ```
 
-### 3. Local deployment & Testing (Hardhat)
+### 3. Local Deployment & Testing (Hardhat)
 
 **▶️ Step 1 - Start the local Hardhat node**
 
@@ -74,3 +74,25 @@ npx hardhat run scripts/deploy.js --network localhost
 ```bash
 npx hardhat test
 ```
+
+### 4. Deploy to Sepolia
+
+**▶️ Step 1 - Ensure .env is configured**
+
+> ⚠️ **Create a `.env` file** (or copy from `.env.example`) and fill in your private details:
+
+```env
+SEPOLIA_RPC_URL=...
+PRIVATE_KEY=...
+```
+**▶️ Step 2 - Deploy with Hardhat**
+
+```bash
+npx hardhat run scripts/deploy.js --network sepolia
+```
+---
+
+## 🔗 Deployed Contract
+
+- Network: Sepolia Testnet
+- Contract Address: [`0xf0557F93506F287fe46657cCc40b66404e331ffF`](https://sepolia.etherscan.io/address/0xf0557F93506F287fe46657cCc40b66404e331ffF)
