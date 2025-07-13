@@ -96,3 +96,9 @@ npx hardhat run scripts/deploy.js --network sepolia
 
 - Network: Sepolia Testnet
 - Contract Address: [`0xf0557F93506F287fe46657cCc40b66404e331ffF`](https://sepolia.etherscan.io/address/0xf0557F93506F287fe46657cCc40b66404e331ffF)
+
+### 👨‍💻 Author
+
+**Mepho9**  
+- GitHub: [@mepho9](https://github.com/mepho9)  
+- LinkedIn: [rbabayev9](https://www.linkedin.com/in/rbabayev9/)
